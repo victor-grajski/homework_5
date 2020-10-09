@@ -84,6 +84,13 @@ header {
     align-items: flex-end;
     padding-bottom: 20px;
 }
+.products-link-container {
+    grid-area: 1 / 9 / span 1 / span 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
 .cart-container {
     grid-area: 1 / 10 / span 1 / span 1;
     display: flex;
@@ -91,28 +98,8 @@ header {
     align-items: flex-end;
     padding-bottom: 10px;
 }
-
-
-/* Detail Page */
-.detail-addl-images {
-    grid-area: 2 / 2 / span 2 / span 1;
-    border: 1px solid black;
-}
-.detail-main-image {
-    grid-area: 2 / 3 / span 2 / span 4;
-    border: 1px solid black;
-}
-.detail-info {
-    grid-area: 2 / 7 / span 3 / span 3;
-    border: 1px solid black;
-}
-.detail-cta {
-    grid-area: 2 / 10 / span 2 / span 2;
-    border: 1px solid black;
-}
-.detail-reviews {
-    grid-area: 4 / 3 / span 1 / span 4;
-    border: 1px solid black;
+.drop-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Added To Cart Page */

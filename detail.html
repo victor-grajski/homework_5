@@ -3,18 +3,143 @@
     <head>
         <meta charset="utf-8">
         <title>Dog Harness</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/detail.css" />
     </head>
 
     <body>
-        <div class="container">
-            <header></header>
+        <div class="container off-white">
+            <header>
+                <div class="logo-container-container">
+                    <div class="logo-container">
+                        <a href="index.html"><img type="image/svg+xml" src="assets/icons/paw.svg" class="logo-icon"></a>
+                        <a href="index.html"><p class="logo-name">Muddy Paws</p></a>
+                    </div>
+                </div>
+                
+                <div class="products-link-container">Products</div>
+                <div class="cart-container">
+                    <object type="image/svg+xml" data="assets/icons/cart.svg" class="cart-icon"></object>
+                </div>
+            </header>
 
-            <div class="detail-addl-images"></div>
-            <div class="detail-main-image"></div>
-            <div class="detail-info"></div>
+            <div class="detail-addl-images">
+                <img src="assets/photos/dog-harness-food-storage.jpg" class="detail-addl-image drop-shadow">
+                <img src="assets/photos/dog-harness-water-storage.jpg" class="detail-addl-image drop-shadow">
+                <img src="assets/photos/huskerino.jpg" class="detail-addl-image drop-shadow">
+                <img src="assets/photos/pointy-boye.jpg" class="detail-addl-image drop-shadow">
+                <object type="image/svg+xml" data="assets/icons/down-arrow-dark.svg"></object>
+            </div>
+            <div class="detail-main-image-container">
+                <img src="assets/photos/dog-harness.jpg" class="detail-main-image drop-shadow">
+            </div>
+            <div class="detail-main-info">
+                <h3 class="detail-title">Dog Harness</h3>
+                <p class="detail-price">$24.99</p>
+                <div class="detail-info-reviews-container">
+                    <div class="detail-info-review-stars-container">
+                        <object type="image/svg+xml" data="assets/icons/star.svg" class="star-icon"></object>
+                        <object type="image/svg+xml" data="assets/icons/star.svg" class="star-icon"></object>
+                        <object type="image/svg+xml" data="assets/icons/star.svg" class="star-icon"></object>
+                        <object type="image/svg+xml" data="assets/icons/star.svg" class="star-icon"></object>
+                        <object type="image/svg+xml" data="assets/icons/star.svg" class="star-icon"></object>
+                    </div>
+                    <div class="detail-info-reviews-description">68 reviews</div>
+                </div>
+            </div>
+            <div class="detail-size-color">
+                <div class="detail-size-container">
+                    <div class="detail-size-label">Size</div>
+                    <div class="detail-size-dropdown-container">
+                        <select name="size-options" class="detail-size-dropdown" id="size-options">
+                            <option value="Large">Large</option>
+                            <option value="Tiny">Tiny</option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="detail-color-container">
+                    <div class="detail-color-label">Color</div>
+                    <div class="detail-color-picker">
+                        <object type="image/svg+xml" data="assets/icons/strawberry-detail.svg" class="color-icon"></object>
+                        <object type="image/svg+xml" data="assets/icons/blackberry-detail.svg" class="color-icon"></object>
+                        <object type="image/svg+xml" data="assets/icons/crazyberry-detail.svg" class="color-icon"></object>
+                        <object type="image/svg+xml" data="assets/icons/fire-orange-detail.svg" class="color-icon"></object>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-description">
+                Whether you’re looking to take your pupper to a sled race or you just need to race around town, 
+                our harness will get the job done! Most importantly, your good boye or gurl will stay comfortable 
+                and tame thanks to our patented choke-free design. No more pulling at the leash then worrying 
+                you’re hurting your doggo!
+            </div>
+
+            <div class="detail-reviews-container">
+                <div class="detail-reviews-first-row">
+                    <div class="detail-reviews-first-row-title">Customer Reviews</div>
+                    <div class="detail-reviews-first-row-label">All reviews have a verified purchase</div>
+                </div>
+                <div class="detail-reviews-second-row">By Feature</div>
+                <div class="detail-reviews-third-row">
+                    <div class="true-to-size-container">
+                        <div class="true-to-size-label">True to Size</div>
+                        <div class="detail-reviews-stars">
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                        </div>
+                        <div class="detail-reviews-rating">5.0</div>
+                    </div>
+                    <div class="comfort-container">
+                        <div class="comfort-label">Comfort</div>
+                        <div class="detail-reviews-stars">
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small-empty.svg"></object>
+                        </div>
+                        <div class="detail-reviews-rating">4.0</div>
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="detail-reviews-fourth-row">
+                    <div class="cuteness-container">
+                        <div class="cuteness-label">Cuteness</div>
+                        <div class="detail-reviews-stars">
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                        </div>
+                        <div class="detail-reviews-rating">5.0</div>
+                    </div>
+                    <div class="durability-container">
+                        <div class="durability-label">Durability</div>
+                        <div class="detail-reviews-stars">
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small.svg"></object>
+                            <object type="image/svg+xml" data="assets/icons/star-small-empty.svg"></object>
+                        </div>
+                        <div class="detail-reviews-rating">4.0</div>
+                    </div>
+                </div>
+                <div class="detail-reviews-fifth-row">
+                    <p>See All Reviews</p>
+                    <object type="image/svg+xml" data="assets/icons/right-arrow.svg" class="right-arrow"></object>
+                </div>
+            </div>
+
             <div class="detail-cta"></div>
-            <div class="detail-reviews"></div>
         </div>
     </body>
 </html>
