@@ -3,14 +3,61 @@
     <head>
         <meta charset="utf-8">
         <title>Added to Cart</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/confirmation.css" />
     </head>
 
     <body>
-        <div class="container">
-            <header></header>
+        <div class="container off-white">
+            <header>
+                <div class="logo-container-container">
+                    <div class="logo-container">
+                        <a href="index.html"><img type="image/svg+xml" src="assets/icons/paw.svg" class="logo-icon"></a>
+                        <a href="index.html"><p class="logo-name">Muddy Paws</p></a>
+                    </div>
+                </div>
+                <div class="page-title">
+                    <h1>Confirmation</h1>
+                </div>
+                <div class="products-link-container">Products</div>
+                <div class="cart-container">
+                    <object type="image/svg+xml" data="assets/icons/cart.svg" class="cart-icon"></object>
+                </div>
+            </header>
 
-            <div class="confirmation-container"></div>
+            <div class="confirmation-container drop-shadow">
+                <div class="confirmation-title">Thank you, your order has been placed.</div>
+                <div class="confirmation-info-container">
+                    <div class="confirmation-info">
+                        <div class="confirmation-label">1 item will be shipped to Victor Grajski</div>
+                        <div class="confirmation-address">5000 Forbes Avenue, #123 Pittsburgh, PA 15217</div>
+                        <div class="delivery-date">Estimated delivery: Sunday, Sep 27</div>
+                    </div>
+                    <div class="confirmation-image-container">
+                        <img src="assets/photos/dog-harness.jpg" class="confirmation-image drop-shadow">
+                    </div>
+                </div>
+                <div class="signup-container">
+                    <div class="signup-title">Sign up for email alerts</div>
+                    <div class="signup-input-container">
+                        <div class="signup-input-label">Email address</div>
+                        <div class="signup-input">
+                            <input type="text" class="signup-input-text" id="signup-input-text" name="signup-input-text">
+                        </div>
+                    </div>
+                    <div class="signup-button">Sign up</div>
+                </div>
+                <div class="signup-container" id="sms-signup-container">
+                    <div class="signup-title">Sign up for SMS alerts</div>
+                    <div class="signup-input-container">
+                        <div class="signup-input-label">Phone Number</div>
+                        <div class="signup-input">
+                            <input type="text" class="signup-input-text" id="signup-input-text" name="signup-input-text">
+                        </div>
+                    </div>
+                    <div class="signup-button">Sign up</div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
