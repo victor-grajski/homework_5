@@ -33,6 +33,8 @@
 }
 .full-name-input-text {
     width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .payment-info-container {
@@ -100,6 +102,8 @@
 .name-on-card-input-text,
 .expiration-date-input-text {
     width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 .continue-to-payment-container {
     margin-top: 30px;

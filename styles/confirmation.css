@@ -77,6 +77,8 @@
     width: 100%;
 }
 .signup-input-text {
+    border-radius: 5px;
+    border: 1px solid black;
     width: 100%;
 }
 .signup-button {
