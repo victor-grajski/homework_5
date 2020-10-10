@@ -51,6 +51,8 @@ header {
     height: 101px;
 }
 .logo-name {
+    font-size: 24px;
+    font-weight: bold;
     color: black;
 }
 .page-title {
@@ -100,54 +102,6 @@ header {
 }
 .drop-shadow {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* Added To Cart Page */
-.added-to-cart-image {
-    grid-area: 2 / 4 / span 1 / span 2;
-    border: 1px solid black;
-}
-.added-to-cart-info {
-    grid-area: 2 / 6 / span 1 / span 2;
-    border: 1px solid black;
-}
-.added-to-cart-cta {
-    grid-area: 2 / 8 / span 1 / span 2;
-    border: 1px solid black;
-}
-.related-products-title {
-    grid-area: 3 / 4 / span 1 / span 3;
-    border: 1px solid black;
-}
-.related-products-grid {
-    grid-area: 4 / 4 / span 2 / span 6;
-    border: 1px solid black;
-
-    display: grid;
-    grid-template-columns: repeat(3, 33.333fr);
-    grid-template-rows: repeat(1, 256px);
-    grid-gap: 20px;
-    justify-content: left;
-    align-items: top;
-    align-content: start;
-    grid-auto-flow: row;
-}
-.related-products-grid-item {
-    border: 1px solid black;
-}
-
-/* Cart */
-.cart-image {
-    grid-area: 2 / 3 / span 1 / span 2;
-    border: 1px solid black;
-}
-.cart-info {
-    grid-area: 2 / 5 / span 1 / span 3;
-    border: 1px solid black;
-}
-.cart-cta {
-    grid-area: 2 / 9 / span 1 / span 3;
-    border: 1px solid black;
 }
 
 /* Checkout Page */
