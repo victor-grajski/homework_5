@@ -66,6 +66,7 @@
 .detail-size-dropdown {
     width: 211px;
     height: 50px;
+    border-radius: 10px;
 }
 .detail-color-container {
     display: flex;
@@ -184,5 +185,92 @@
 
 .detail-cta {
     grid-area: 2 / 10 / span 2 / span 2;
-    border: 1px solid black;
+    background: #D3D3D3;
+    border-radius: 10px;
+}
+.quantity-container {
+    margin-top: 33px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    font-size: 24px;
+}
+.quantity-label {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.quantity-dropdown-container {
+    padding-right: 8px;
+}
+.quantity-dropdown {
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+}
+.return-policy-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.return-policy-label {
+    margin-left: 10px;
+}
+.secure-transaction-container {
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.secure-transaction-label {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.add-to-cart-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.detail-add-to-cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 64px;
+    border-radius: 10px;
+    background: #219897;
+    font-weight: bold;
+    font-size: 24px;
+    color: #EEEEEE;
+}
+.buy-now-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.detail-buy-now-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 64px;
+    background: #EEEEEE;
+    border: 1px solid #219897;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #219897;
 }
