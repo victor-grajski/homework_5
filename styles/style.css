@@ -61,8 +61,7 @@ header {
     justify-content: flex-start;
     align-items: flex-end;
     font-style: normal;
-    /* font-size: 72px; */
-    line-height: 84px;
+    font-size: 40px;
     font-weight: bold;
 }
 .sort-container {
@@ -102,20 +101,6 @@ header {
 }
 .drop-shadow {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* Checkout Page */
-.shipping-address-container {
-    grid-area: 2 / 4 / span 3 / span 6;
-    border: 1px solid black;
-}
-.payment-info-container {
-    grid-area: 5 / 4 / span 3 / span 6;
-    border: 1px solid black;
-}
-.review-items-container {
-    grid-area: 8 / 4 / span 4 / span 6;
-    border: 1px solid black;
 }
 
 /* Confirmation Page */
