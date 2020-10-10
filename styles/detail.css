@@ -99,12 +99,15 @@
     flex-direction: row;
 }
 .detail-reviews-first-row-title {
+    width: 50%;
     font-size: 24px;
 }
 .detail-reviews-first-row-label {
+    width: 50%;
     padding-top: 9px;
-    font-size: 14px;
+    font-size: 12px;
     margin-left: auto;
+    text-align: right;
 }
 .detail-reviews-second-row {
     margin-top: 10px;
@@ -158,16 +161,16 @@
     margin-right: 5px;
 }
 .true-to-size-label {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .comfort-label {
-    margin-right: 22px;
+    margin-right: 12px;
 }
 .cuteness-label {
-    margin-right: 25px;
+    margin-right: 20px;
 }
 .durability-label {
-    margin-right: 16px;
+    margin-right: 6px;
 }
 .detail-reviews-fifth-row {
     /* width: 100%; */
@@ -179,7 +182,7 @@
     font-size: 14px;
 }
 .right-arrow {
-    padding-top: 2px;
+    padding-top: 4px;
     padding-left: 5px;
 }
 
