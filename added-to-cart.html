@@ -3,21 +3,61 @@
     <head>
         <meta charset="utf-8">
         <title>Added to Cart</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/added-to-cart.css" />
     </head>
 
     <body>
-        <div class="container">
-            <header></header>
+        <div class="container off-white">
+            <header>
+                <div class="logo-container-container">
+                    <div class="logo-container">
+                        <a href="index.html"><img type="image/svg+xml" src="assets/icons/paw.svg" class="logo-icon"></a>
+                        <a href="index.html"><p class="logo-name">Muddy Paws</p></a>
+                    </div>
+                </div>
+                <div class="products-link-container">Products</div>
+                <div class="cart-container">
+                    <object type="image/svg+xml" data="assets/icons/cart.svg" class="cart-icon"></object>
+                </div>
+            </header>
 
-            <div class="added-to-cart-image"></div>
-            <div class="added-to-cart-info"></div>
-            <div class="added-to-cart-cta"></div>
-            <div class="related-products-title"></div>
+            <div class="added-to-cart-image-container">
+                <img src="assets/photos/dog-harness.jpg" class="added-to-cart-image drop-shadow">
+            </div>
+            <div class="added-to-cart-info-container">
+                <div class="added-to-cart-label">Added to Cart</div>
+                <div class="added-to-cart-product-name">Dog Collar</div>
+                <div class="added-to-cart-size">Size: Large</div>
+                <div class="added-to-cart-color">Color: Blackberry</div>
+            </div>
+            <div class="added-to-cart-cta-container">
+                <a href="cart.html" class="added-to-cart-view-cart-button drop-shadow">View Cart</a>
+                <div class="added-to-cart-checkout-button drop-shadow">Checkout</div>
+            </div>
+            <div class="related-products-title">Related Products</div>
             <div class="related-products-grid">
-                <div class="related-products-grid-item"></div>
-                <div class="related-products-grid-item"></div>
-                <div class="related-products-grid-item"></div>
+                <div class="related-products-grid-item">
+                    <div class="related-product-image-container">
+                        <img src="assets/photos/dog-harness-water-storage.jpg" class="added-to-cart-image drop-shadow">
+                    </div>
+                    <div class="related-product-title">Dog Harness Water Storage</div>
+                    <div class="related-product-price">$19.99</div>
+                </div>
+                <div class="related-products-grid-item">
+                    <div class="related-product-image-container">
+                        <img src="assets/photos/dog-harness-food-storage.jpg" class="added-to-cart-image drop-shadow">
+                    </div>
+                    <div class="related-product-title">Dog Harness Food Storage</div>
+                    <div class="related-product-price">$19.99</div>
+                </div>
+                <div class="related-products-grid-item">
+                    <div class="related-product-image-container">
+                        <img src="assets/photos/dog-gps-collar.jpg" class="added-to-cart-image drop-shadow">
+                    </div>
+                    <div class="related-product-title">Dog GPS Collar</div>
+                    <div class="related-product-price">$49.99</div>
+                </div>
             </div>
         </div>
     </body>
