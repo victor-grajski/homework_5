@@ -14,6 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-weight: bold;
+    font-size: 32px;
 }
 .landing-text {
     color: white;
@@ -24,6 +26,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    font-weight: bold;
+    font-size: 24px;
 }
 .landing-top-cta-container {
     grid-area: 3 / 5 / span 1 / span 4;
@@ -39,6 +43,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    font-size: 36px;
 }
 .landing-learn-more-container {
     grid-area: 4 / 6 / span 1 / span 2;
