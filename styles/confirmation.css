@@ -11,11 +11,11 @@
     margin-top: 20px;
     margin-left: 20px;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
 }
 .confirmation-info-container {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -27,7 +27,7 @@
 }
 .confirmation-label {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 .confirmation-address {
     margin-top: 10px;
